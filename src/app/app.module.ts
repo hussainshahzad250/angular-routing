@@ -41,7 +41,7 @@ const routes: Routes = [
     "component": DepartmentListComponent
   },
   {
-    'path': "details",
+    'path': "services",
     "component": NavComponent
   },
   {
