@@ -1,0 +1,130 @@
+[debug] [2018-12-01T16:46:30.407Z] ----------------------------------------------------------------------
+[debug] [2018-12-01T16:46:30.413Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shahzad.Hussain\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-01T16:46:30.414Z] CLI Version:   6.1.1
+[debug] [2018-12-01T16:46:30.414Z] Platform:      win32
+[debug] [2018-12-01T16:46:30.414Z] Node Version:  v8.11.4
+[debug] [2018-12-01T16:46:30.417Z] Time:          Sat Dec 01 2018 22:16:30 GMT+0530 (India Standard Time)
+[debug] [2018-12-01T16:46:30.418Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-01T16:46:30.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-01T16:46:30.493Z] > authorizing via signed-in user
+[debug] [2018-12-01T16:46:30.493Z] [iam] checking project askertransport for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-01T16:46:30.495Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-01T16:46:30.495Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-01T16:46:31.827Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-01T16:46:32.276Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/askertransport:testIamPermissions  
+
+[debug] [2018-12-01T16:46:34.544Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-01T16:46:34.545Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/askertransport  
+ 
+[debug] [2018-12-01T16:46:35.430Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'askertransport'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-01T16:46:35.439Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/askertransport/versions  
+
+[debug] [2018-12-01T16:46:38.845Z] <<< HTTP RESPONSE 200
+[info] i  hosting[askertransport]: beginning deploy...
+[info] i  hosting[askertransport]: found 19 files in dist
+[debug] [2018-12-01T16:46:38.895Z] [hosting] hash cache [ZGlzdA] load error: lines is not defined
+[debug] [2018-12-01T16:46:39.335Z] [hosting] hash cache [ZGlzdA] stored for 19 files
+[debug] [2018-12-01T16:46:39.335Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-01T16:46:39.335Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/askertransport/versions/40d6640b9597e864:populateFiles  
+ <request body omitted>
+[debug] [2018-12-01T16:46:42.549Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-01T16:46:42.568Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-01T16:46:42.568Z] [hosting] uploads queued: 9
+[debug] [2018-12-01T16:47:13.583Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:47:13.717Z] [uploadQueue] Retrying task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9
+[debug] [2018-12-01T16:47:13.717Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:47:14.839Z] [uploadQueue] Retrying task 510644d234ce355f04767ffb9ad4d4ef71dcb98473086e59246cf875530ceb4c
+[debug] [2018-12-01T16:47:45.002Z] [uploadQueue] Retrying task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9
+[debug] [2018-12-01T16:47:45.057Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:47:46.992Z] [uploadQueue] Retrying task 510644d234ce355f04767ffb9ad4d4ef71dcb98473086e59246cf875530ceb4c
+[debug] [2018-12-01T16:48:17.936Z] [uploadQueue] Retrying task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9
+[debug] [2018-12-01T16:48:18.424Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:48:28.088Z] [uploadQueue] Retrying task 510644d234ce355f04767ffb9ad4d4ef71dcb98473086e59246cf875530ceb4c
+[debug] [2018-12-01T16:48:42.272Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:48:51.300Z] [uploadQueue] Retrying task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9
+[debug] [2018-12-01T16:49:01.437Z] [uploadQueue] Retrying task 510644d234ce355f04767ffb9ad4d4ef71dcb98473086e59246cf875530ceb4c
+[debug] [2018-12-01T16:49:01.527Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:49:14.004Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:49:29.020Z] [uploadQueue] Retrying task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9
+[debug] [2018-12-01T16:49:47.526Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:49:53.615Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:49:59.568Z] [uploadQueue] Retries exhausted for task d180690fab5b6331a3eb059f4d1154c63063f6e2566b0ed93d10669bf9c9b9a9:
+[debug] [2018-12-01T16:49:59.571Z] [hosting][upload queue][FINAL]
+[debug] [2018-12-01T16:50:00.334Z] Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (C:\Users\Shahzad.Hussain\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:816:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at ClientRequest.emit (events.js:208:7)
+    at TLSSocket.emitTimeout (_http_client.js:706:34)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket.Socket._onTimeout (net.js:410:8)
+    at ontimeout (timers.js:498:11)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-12-01T16:50:07.030Z] ----------------------------------------------------------------------
+[debug] [2018-12-01T16:50:07.037Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shahzad.Hussain\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-12-01T16:50:07.037Z] CLI Version:   6.1.1
+[debug] [2018-12-01T16:50:07.037Z] Platform:      win32
+[debug] [2018-12-01T16:50:07.037Z] Node Version:  v8.11.4
+[debug] [2018-12-01T16:50:07.041Z] Time:          Sat Dec 01 2018 22:20:07 GMT+0530 (India Standard Time)
+[debug] [2018-12-01T16:50:07.041Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-01T16:50:07.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-01T16:50:07.062Z] > authorizing via signed-in user
+[debug] [2018-12-01T16:50:07.062Z] [iam] checking project askertransport for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-01T16:50:07.066Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/askertransport:testIamPermissions  
+
+[debug] [2018-12-01T16:50:10.000Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-01T16:50:10.005Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/askertransport  
+ 
+[debug] [2018-12-01T16:50:10.809Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'askertransport'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-01T16:50:10.819Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/askertransport/versions  
+
+[debug] [2018-12-01T16:50:13.677Z] <<< HTTP RESPONSE 200
+[info] i  hosting[askertransport]: beginning deploy...
+[info] i  hosting[askertransport]: found 19 files in dist
+[debug] [2018-12-01T16:50:13.702Z] [hosting] hash cache [ZGlzdA] load error: lines is not defined
+[debug] [2018-12-01T16:50:14.088Z] [hosting] hash cache [ZGlzdA] stored for 19 files
+[debug] [2018-12-01T16:50:14.088Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-01T16:50:14.088Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/askertransport/versions/b80a9ae70c43004e:populateFiles  
+ <request body omitted>
+[debug] [2018-12-01T16:50:16.855Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-01T16:50:16.866Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-01T16:50:16.866Z] [hosting] uploads queued: 2
+[debug] [2018-12-01T16:50:47.598Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:50:47.603Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:51:27.014Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:51:37.756Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:52:10.656Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:52:28.046Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:52:44.124Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:53:01.455Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:53:20.960Z] [uploadQueue] Retrying task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e
+[debug] [2018-12-01T16:53:38.403Z] [uploadQueue] Retrying task b33f59afd2e16fd7265c97f71cc6bff20e3bf5af262c3bad1414531e068261b3
+[debug] [2018-12-01T16:53:51.322Z] [uploadQueue] Retries exhausted for task 9c9e14d9b8370e857a82e55dd420b146587d6b45ff9c74ab655a05d849389c6e:
+[debug] [2018-12-01T16:53:51.323Z] [hosting][upload queue][FINAL]
+[debug] [2018-12-01T16:53:52.966Z] Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (C:\Users\Shahzad.Hussain\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:816:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at ClientRequest.emit (events.js:208:7)
+    at TLSSocket.emitTimeout (_http_client.js:706:34)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket.Socket._onTimeout (net.js:410:8)
+    at ontimeout (timers.js:498:11)
+[error] 
+[error] Error: An unexpected error has occurred.

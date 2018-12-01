@@ -8,3 +8,20 @@
 
     background-color: #90EE90;width: fit-content;
 }
+.jumbotron {
+    width: 1500px;
+    height: 550px;
+    color: white;
+    border-radius: 6px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 64px;
+   
+    /* overflow: hidden;
+    position:  inherit; */
+    /* overflow-x: scroll; */
+    /* position: relative; */
+    background-size: cover;
+    display: block;
+    background-image: url('/assets/images/4.jfif');
+}
