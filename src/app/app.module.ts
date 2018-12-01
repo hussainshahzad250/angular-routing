@@ -25,19 +25,23 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 const routes: Routes = [
   {
+    'path': "",
+    "component": HomeComponent
+  },
+  {
     'path': "home",
     "component": HomeComponent
   },
   {
-    'path': "employee",
+    'path': "contactUs",
     "component": EmployeeListComponent
   },
   {
-    'path': "department",
+    'path': "about",
     "component": DepartmentListComponent
   },
   {
-    'path': "nav",
+    'path': "details",
     "component": NavComponent
   },
   {
