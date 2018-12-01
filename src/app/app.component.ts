@@ -8,5 +8,5 @@ import {ToastyService, ToastyConfig, ToastOptions, ToastData} from 'ng2-toasty';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Asker Transport';
+  title = 'Askar Transport';
 }
