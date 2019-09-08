@@ -1,20 +1,26 @@
 .paragraph {
     text-align: left;
 }
-.jumbotron {
-    width: 1500px;
-    height: 550px;
+.lead{
     color: white;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.jumbotron {
+    
+    color: red;
     border-radius: 6px;
-    padding-right: 60px;
+    height: 500px;
+    /* padding-right: 60px;
     padding-left: 60px;
     padding-top: 64px;
-   
-    /* overflow: hidden;
-    position:  inherit; */
+    */
+    /* overflow: hidden;*/
+    position:  inherit; 
     /* overflow-x: scroll; */
     /* position: relative; */
     background-size: cover;
-    display: block;
-    background-image: url('/assets/images/4.jfif');
+    display: block; 
+    background-image: url('/assets/images/Safety.jpg');
 }
