@@ -1,37 +1,99 @@
 <body class="app">
-  <!-- <header class="app-header navbar"></header> -->
+  <h2 class="center">We are here for you</h2>
   <div class="app-body">
-    <main class="main">
-      <!-- main content start here -->
+    <!-- main content start here -->
+    <div class="left">
+      <section class="full-width background-grey">
+        <div class="m-12 l-6">
+          <div class="padding-3x">
+            <div class="margin2x">
 
-      <div class="container">
-        <div class="row" style="margin-top: 10px;">
-          <div class="col-md-12">
-            <div class="card mb-3  table-size">
-              <!-- <div class="card-header">
-                      {{getHeaderText()}}
-                    </div> -->
-              <div class="card-body table-responsive">
+              <div class="l-12 xl-6 margin-bottom-60">
+                <div class="float-left">
+                  <i class="icon-sli-location-pin text-primary text-size-40 text-line-height-1"></i>
+                </div>
+                <div class="margin-left-60">
+                  <h2 class="text-size-20 margin-bottom-10 text-strong">Company Address</h2>
+                  <p>Bijwasan</p>
+                  <p>New Delhi 110061</p>
+                </div>
+              </div>
 
-                <div *ngIf="!showTable" class="d-flex justify-content-center">
-                  No payment Record Found
+              <div class="l-12 xl-6 margin-bottom-60">
+                <div class="float-left">
+                  <i class="icon-sli-envelope text-primary text-size-40 text-line-height-1"></i>
+                </div>
+                <div class="margin-left-60">
+                  <h2 class="text-size-20 margin-bottom-10 text-strong">E-mail</h2>
+                  <p><a class="text-primary-hover" href="mailto:info@test.com">info@test.com</a></p>
+                  <p><a class="text-primary-hover" href="mailto:contactus@test.com">contactus@test.com</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="l-12 xl-6 margin-bottom-60">
+                <div class="float-left">
+                  <i class="icon-sli-earphones-alt text-primary text-size-40 text-line-height-1"></i>
+                </div>
+                <div class="margin-left-60">
+                  <h2 class="text-size-20 margin-bottom-10 text-strong">Phone Numbers</h2>
+                  <p>+91 - 7828588330</p>
+                  <p>+91 - 7827628538</p>
+                </div>
+              </div>
+
+              <div class="l-12 xl-6">
+                <div class="float-left">
+                  <i class="icon-sli-paper-plane text-primary text-size-40 text-line-height-1"></i>
                 </div>
               </div>
             </div>
           </div>
-
-
-
-
         </div>
-      </div>
-      <!-- main content end here -->
+      </section>
+    </div>
 
 
-    </main>
+
+
+    <div class="right">
+      <!-- Section 3 -->
+      <section class="section background-dark">
+        <div class="s-12 m-12 l-4 center">
+          <h3 class="text-size-30 margin-bottom-40 text-center"><b>Contact Form</b></h3>
+          <form class="customform text-white" method="post" enctype="multipart/form-data">
+            <div class="line">
+              <div class="margin">
+                <div class="s-12 m-12 l-6">
+                  <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail"
+                    type="text" />
+                </div>
+                <div class="s-12 m-12 l-6">
+                  <input name="name" class="name" placeholder="Your name" title="Your name" type="text" />
+                </div>
+              </div>
+            </div>
+
+            <div class="line">
+              <div class="s-12">
+                <input name="subject" class="required subject" placeholder="Subject" title="Subject" type="text" />
+              </div>
+              <div class="s-12">
+                <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
+              </div>
+              <div class="s-12"><button class="button border-radius text-white background-primary" type="submit">Submit
+                  Button</button></div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- main content end here -->
   </div>
+
+
+
   <footer class="app-footer">
-    <!-- Footer content here -->
-    <h3>@ 2019 Ever Safe Packer and Mover | All Right Reserved</h3>
+    <h3>@ 2019 My Company | All Right Reserved</h3>
   </footer>
 </body>

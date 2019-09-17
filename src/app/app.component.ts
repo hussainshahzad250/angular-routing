@@ -13,5 +13,5 @@ import {
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "Ever Safe Moving and Packers Company";
+  title = "My Company";
 }

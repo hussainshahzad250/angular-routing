@@ -1,16 +1,5 @@
-.paragraph {
-  text-align: left;
-}
-
-.found {
-  padding-top: 150px;
-  margin: 5px;
-  /* width: 230px; */
-  text-align: center;
-  color: green;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 50px;
+body{
+  font-size: 14px;
 }
 .app {
     display: -ms-flexbox;
@@ -19,3 +8,5 @@
     flex-direction: column;
     min-height: 88vh;
 }
+
+
