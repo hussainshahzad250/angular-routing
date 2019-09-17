@@ -1,12 +1,13 @@
-<div class="container-fluid" style="text-align:center">
-    <h1>{{title}}!</h1>    
-    <nav>
-        <!-- <a class="btn .btn-primary" routerLink="/dashboard" routerLinkActive="active">Dashboard</a> -->
-        <a class="btn .btn-primary" routerLink="/home" routerLinkActive="active" id="primary">Home</a>
-        <a class="btn .btn-primary" routerLink="/about" routerLinkActive="active" id="primary">About</a>
-        <a class="btn .btn-primary" routerLink="/contactUs" routerLinkActive="active" id="primary">Contact Us</a>        
-        <a class="btn .btn-primary" routerLink="/services" routerLinkActive="active" id="primary">Services</a>       
-        <!-- <a class="btn .btn-primary" routerLink="/profile" routerLinkActive="active">Profile</a>        -->
-    </nav>
-    <router-outlet></router-outlet>
+<div class="container-fluid" style="text-align:center;padding-top: 15px;">
+  <h1>{{ title }}</h1>
+  <nav>
+    <!-- <a class="btn .btn-primary" routerLink="/dashboard" routerLinkActive="active">Dashboard</a> -->
+    <a class="btn .btn-primary" routerLink="/home" routerLinkActive="active">Home</a>
+    <a class="btn .btn-primary" routerLink="/about" routerLinkActive="active">About</a>
+    <a class="btn .btn-primary" routerLink="/contactUs" routerLinkActive="active">Contact Us</a>
+    <a class="btn .btn-primary" routerLink="/services" routerLinkActive="active">Services</a>
+    <!-- <a class="btn .btn-primary" routerLink="/profile" routerLinkActive="active"
+      >Profile</a> -->
+  </nav>
+  <router-outlet></router-outlet>
 </div>

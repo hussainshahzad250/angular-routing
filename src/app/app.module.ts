@@ -12,16 +12,16 @@ import { SimpleNotificationsModule } from 'angular2-notifications';
 import { ToastyModule } from 'ng2-toasty';
 
 import { AppComponent } from './app.component';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
-import { DepartmentListComponent } from './department-list/department-list.component';
-import { NavComponent } from './nav/nav.component';
+import { About as About } from './about/about.component';
+import { Services as Services } from './services/nav.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
-import { NavService } from './nav/nav.service';
+import { NavService } from './services/nav.service';
 
 // FOR HASING
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ContactUs } from './contactus/contact.component';
 
 const routes: Routes = [
   {
@@ -34,15 +34,15 @@ const routes: Routes = [
   },
   {
     'path': "contactUs",
-    "component": EmployeeListComponent
+    "component": ContactUs
   },
   {
     'path': "about",
-    "component": DepartmentListComponent
+    "component": About
   },
   {
     'path': "services",
-    "component": NavComponent
+    "component": Services
   },
   {
     'path': "**",
@@ -52,9 +52,9 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeListComponent,
-    DepartmentListComponent,
-    NavComponent,
+    ContactUs,
+    About,
+    Services,
     HomeComponent,
     PagenotfoundComponent
   ],
